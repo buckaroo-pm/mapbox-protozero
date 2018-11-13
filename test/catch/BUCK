@@ -1,0 +1,11 @@
+prebuilt_cxx_library(
+  name = 'catch', 
+  header_namespace = '', 
+  header_only = True, 
+  exported_headers = [
+    'catch.hpp', 
+  ], 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)

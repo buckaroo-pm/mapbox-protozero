@@ -1,0 +1,10 @@
+cxx_binary(
+  name = 'unit', 
+  srcs = glob([
+    '*.cpp', 
+  ]), 
+  deps = [
+    '//test:test', 
+    '//:protozero', 
+  ], 
+)
